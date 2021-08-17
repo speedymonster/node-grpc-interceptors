@@ -1,0 +1,62 @@
+{
+  "_from": "@pionerlabs/grpc-interceptors@^0.2.5",
+  "_id": "@pionerlabs/grpc-interceptors@0.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-x1wQdwJ7U3MrCqUpGsP/a4eOfPi/XhC8jEVLEIayonKW3PPhzIHN87epCULzt1zR7lQp59oeFofN84lfuBAtnA==",
+  "_location": "/@pionerlabs/grpc-interceptors",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@pionerlabs/grpc-interceptors@^0.2.5",
+    "name": "@pionerlabs/grpc-interceptors",
+    "escapedName": "@pionerlabs%2fgrpc-interceptors",
+    "scope": "@pionerlabs",
+    "rawSpec": "^0.2.5",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pionerlabs/grpc-interceptors/-/grpc-interceptors-0.2.5.tgz",
+  "_shasum": "403691f0c7c7a32b93e75286760ee840fdc20dc8",
+  "_spec": "@pionerlabs/grpc-interceptors@^0.2.5",
+  "_where": "C:\\Users\\RaulSanchez\\Desktop\\clean\\fonos",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/echo-health/node-grpc-interceptors/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "zipkin": "^0.12.0",
+    "zipkin-transport-http": "^0.12.0"
+  },
+  "deprecated": false,
+  "description": "This library provides a way to instrument Node.js gRPC clients and servers with interceptors/middleware e.g. for Prometheus metrics, Zipkin tracing etc.",
+  "devDependencies": {
+    "depcheck": "^0.6.9",
+    "protobufjs": "^6.8.6"
+  },
+  "homepage": "https://github.com/echo-health/node-grpc-interceptors#readme",
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@pionerlabs/grpc-interceptors",
+  "peerDependencies": {
+    "@grpc/grpc-js": "^1.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echo-health/node-grpc-interceptors.git"
+  },
+  "scripts": {
+    "depcheck": "depcheck --ignores=eslint-config-plugin:*",
+    "lint": "eslint . --fix",
+    "test": "jest"
+  },
+  "typings": "./index.d.ts",
+  "version": "0.2.5"
+}
