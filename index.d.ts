@@ -1,4 +1,4 @@
-declare module '@pionerlabs/grpc-interceptors' {
+declare module '@speedymonster/grpc-interceptors' {
   import grpc from '@grpc/grpc-js';
 
   function serverProxy(server: grpc.Server): ServerProxy;
